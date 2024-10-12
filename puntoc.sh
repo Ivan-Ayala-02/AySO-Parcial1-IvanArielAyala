@@ -28,5 +28,5 @@ sudo chmod -R 760 alumnos_2
 sudo chmod -R 700 alumnos_3
 sudo chmod -R 775 profesores/
 
-"Usuario: $(whoami)" > /home/vagrant/Examenes-UTN/alumnos_1/validar.txt
+echo "Usuario: $(whoami)" > /home/vagrant/Examenes-UTN/alumnos_1/validar.txt
 
